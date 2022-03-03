@@ -1,0 +1,19 @@
+---
+layout: news
+---
+
+<div class="container">
+  
+  <ul class="blogul">
+    {% for new in site.categories.frontend %}
+    <li class="blogli py-3">
+      <a href="" class="bloga h2">
+        <h1 class="blogtitle">{{new.title}}</h1>
+      </a>
+      <p class="blogmeta my-3">{{new.meta}}</p>
+      <button class="btn btn-primary">READ MORE</button>
+    </li>
+
+    {% endfor %}
+  </ul>
+</div>

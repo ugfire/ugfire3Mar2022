@@ -1,0 +1,184 @@
+body{
+  
+    font-family: "century gothic", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px !important;
+}
+p{
+
+}
+.body{
+    background:  #000 url('../images/bg/black-twill.png') !important;
+    margin: 0px !important;
+   }
+.body2{
+    background:  #000 url('../images/bg/cartographer.png') !important;
+}
+.text-primary2{
+    color: rgb(0, 195, 255);
+}
+
+.bg-dark1{
+    background-color: rgb(43, 43, 43) !important;
+}
+
+.bg-dark2{
+    background-color: rgb(26, 26, 26) !important;
+}
+.text-normal{
+    font-style: normal;
+}
+.navbar-nav a{
+    color: rgb(236, 232, 232) !important;
+}
+
+.dropdown-menu a{
+padding-top: 15px !important;
+border-bottom: 1px ridge #7c2d2d;
+}
+
+.dropdown-menu{
+    color: #e7e7e7;
+    background-color: #682a2a !important;
+}
+
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+      color: #e7e7e7;
+    background-color: #571d1d
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #335b8c;
+}
+
+.section {
+      background: rgba(104, 50, 50, 0.2)  url('../images/bg/cartographer.png') !important;   
+}
+
+
+.training {
+    background: url('../images/bg/checkered-pattern.png') !important;
+}
+
+.training {
+      background-color: rgba(167, 22, 22, 0.5);
+    margin: 0px 20px;
+}
+
+.course{
+    font-family: "century gothic";
+}
+.section {
+    background-color: rgba(167, 22, 22, 0.5);
+    margin: 20px;
+}
+
+.svgpic {
+    width: 80px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.bg-blue {
+    background-color: aliceblue;
+}
+
+.bg-grey {
+    background-color: rgb(231, 231, 231);
+}
+
+.badge {
+    font-style: normal;
+    font-size: x-large;
+}
+
+.list-group-item2 {
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: .5rem 1rem;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(248, 225, 91, 0.5)
+}
+
+.nostyle {
+    text-decoration: none;
+    font-style: normal;
+}
+
+@media (min-width:600px) {
+   .nav-item a:hover{
+       color: rgb(219, 219, 219) !important;
+        background-color: #571d1d;
+        
+   }
+
+   .dropdown-item:focus,
+   .dropdown-item:hover {
+          font-size: 40px  !important;
+         }
+   
+
+.rightpic{
+    min-width: 570px;
+}
+   .h7{
+       font-size: 500% !important;
+       font-family: 'Times New Roman', Times, serif;
+   }
+
+   .h8{
+    font-size: 350% !important;
+  
+}
+
+.p8{
+    line-height: 9vh;
+}
+.p8{
+    font-size: 250% !important;
+ 
+}
+}
+
+
+@media (min-width:2000px) {
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+       font-size: 40px  !important;
+   color: #e7e7e7;
+    background-color: #571d1d
+}
+
+ 
+    .h7{
+        font-size: 800% !important;
+        font-family: 'Times New Roman', Times, serif;
+    }
+ 
+    .h8{
+     font-size: 500% !important;
+     
+ }
+ .p8{
+     font-size: 300% !important;
+     padding: 50px;
+     line-height: 9vh;
+ }
+ }
+
+ @media (max-width:600px) {
+ 
+    .h7{ text-align: left !important;
+        font-size: 230% !important;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 0px !important;
+        padding-bottom: 0px !important;
+    }
+}

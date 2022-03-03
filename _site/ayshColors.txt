@@ -1,0 +1,8 @@
+aysh red      #a33447
+Lighter red    #d36675
+Grey           #333333
+Dark Blue      #335b8c
+Dark Green     #669900
+Light Green   #b3ff66
+Dark red       #a71616
+Yellow         #ccad00

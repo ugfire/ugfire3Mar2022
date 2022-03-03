@@ -1,0 +1,43 @@
+---
+layout: news
+title: "Blog"
+desc: "Read authentic article on Mastercard partnership with MTN mobile money and Airtel money in Uganda."
+---
+
+<main>
+
+  <section class="my-5">
+  <h1 class="text-center text-danger  exa pt-5 mt-5">Technology Blogs</h1>
+  <p class=" h4 px-0 py-1 mx-0 fw-normal text-center">
+   Learn about technology relevant to Ugandan/ African businesses.
+    <on class=""></on>
+  </p>
+  <div class="row mx-auto">
+    {% for post in site.posts limit:3%}
+    <div class="col-lg-4 my-3 bg-light">
+      <div class="p-3 articleitem">
+        <article class="">
+          {% include patterns/cards/post.html data=post %}
+        </article>
+        
+      </div>
+
+      {% endfor %}
+    </div>
+  </div>
+
+<!-----------------------------LOWER LIST----------------------------------------->
+<h1 class="text-left  ps-5 pt-5">Other Blogs</h1>
+<div class="row container ps-5 text-warning text-left py-5 ">
+  {% for posts in site.posts %}
+    <h3 class="allposts h4">
+     {% include patterns/cards/posts.html data=posts %}
+    </h3>
+   
+      
+    {% endfor %}
+ 
+</div>
+<!----------------------------------END LOWER LIST-------------------------------->
+</section>
+</main>
